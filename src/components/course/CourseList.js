@@ -16,11 +16,11 @@ const CourseList = ({courses}) => {
             <tbody>
                 {courses.map(course =>
                     <CourseListRow key={course.id} course={course}/>
-                ) }
+                )}
             </tbody>
         </table>
     );
-}
+};
 
 
 CourseList.propTypes = {
